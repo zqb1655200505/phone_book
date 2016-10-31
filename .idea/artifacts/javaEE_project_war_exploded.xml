@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaEE_project:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="javaEE_project/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaEE_project" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="poi-3.6-20091214" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
