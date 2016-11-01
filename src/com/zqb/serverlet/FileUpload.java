@@ -1,5 +1,7 @@
 package com.zqb.serverlet;
 
+import com.zqb.util.ExcelHelper;
+import net.sf.json.JSONObject;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -10,11 +12,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by zqb on 2016/10/31.
@@ -22,8 +23,13 @@ import java.util.List;
 @WebServlet(name = "FileUpload",urlPatterns = "/FileUpload")
 public class FileUpload extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String path="";
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
+        response.setHeader("content-type","text/json;charset=UTF-8");
+        PrintWriter outPrinter = response.getWriter();
+        Map<String,String> map=new HashMap<>();
+
         // 得到上传文件的保存目录，将上传文件存放在WEB-INF目录下，不允许外界直接访问，保证上传文件的安全
         String save_path=this.getServletContext().getRealPath("/WEB-INF/upload");
         File file=new File(save_path);
@@ -32,14 +38,7 @@ public class FileUpload extends HttpServlet {
             System.out.println(save_path+"目录不存在，需要创建");
             file.mkdirs();
         }
-        // 上传时生成临时文件保存目录
-        String tmpPath = this.getServletContext().getRealPath("WEB-INF/tem");
-        File tmpFile = new File(tmpPath);
-        if (!tmpFile.exists())
-        {
-            // 创建临时目录
-            tmpFile.mkdirs();
-        }
+        //System.out.print("hhhh");
         //使用Apache文件上传组件处理文件上传步骤：
         //1、创建一个DiskFileItemFactory工厂
         DiskFileItemFactory factory=new DiskFileItemFactory();
@@ -48,7 +47,7 @@ public class FileUpload extends HttpServlet {
         //解决上传文件中文乱码
         upload.setHeaderEncoding("UTF-8");
         // 设置上传单个文件的最大值
-        upload.setFileSizeMax(1024 * 1024 * 1);// 1M
+        upload.setFileSizeMax(1024 * 1024 );// 1M
         // 设置上传文件总量的最大值，就是本次上传的所有文件的总和的最大值
         upload.setSizeMax(1024 * 1024 * 10);// 10M
         //3、判断提交上来的数据是否是上传表单的数据
@@ -57,7 +56,16 @@ public class FileUpload extends HttpServlet {
             return;
         }
         try {
+
             List<FileItem> list = upload.parseRequest(request);
+            if(list==null){
+                //System.out.print("list为空");
+                map.put("code","error");
+                map.put("msg","上传文件列表为空");
+                JSONObject json = JSONObject.fromObject(map);
+                outPrinter.print(json);
+                return;
+            }
             for(FileItem item:list)
             {
                 //如果fileitem中封装的是普通输入项的数据
@@ -84,6 +92,7 @@ public class FileUpload extends HttpServlet {
                     InputStream in = item.getInputStream();
                     //创建一个文件输出流
                     FileOutputStream out=new FileOutputStream(save_path + "\\" + filename);
+                    path=save_path + "\\" + filename;//保存文件全路径，用于后面读取文件导入数据库
                     //创建一个缓冲区
                     byte buffer[] = new byte[1024];
                     //判断输入流中的数据是否已经读完的标识
@@ -104,7 +113,47 @@ public class FileUpload extends HttpServlet {
             }
         } catch (FileUploadException e) {
             e.printStackTrace();
+            return;
         }
+
+        //读取刚刚上传的文件
+        File read_file=new File(path);
+        if(!read_file.exists())
+        {
+            map.put("code","error");
+            map.put("msg","读取上传文件出错");
+            JSONObject json = JSONObject.fromObject(map);
+            outPrinter.print(json);
+            return;
+        }
+        else
+        {
+            if(!path.endsWith(".xls"))
+            {
+                map.put("code","error");
+                map.put("msg","文件类型不符");
+            }
+            else
+            {
+                try
+                {
+                    ExcelHelper.addRecordFromExcel(path);
+                }
+                catch (Exception e)
+                {
+                    map.put("code","error");
+                    map.put("msg","导入出错");
+                    return;
+                }
+            }
+        }
+        if(map.isEmpty())
+        {
+            map.put("code","success");
+            map.put("msg","导入数据成功");
+        }
+        JSONObject json = JSONObject.fromObject(map);
+        outPrinter.print(json);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

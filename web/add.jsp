@@ -69,15 +69,17 @@
                 <div class="for_button"><input type="submit" name="submit" value="添加" class="button"/></div>
             </div>
         </form>
-        <form id="upload" method="post" action="FileUpload">
+        <form id="upload">
             <div style="width: 500px;height: 80px;margin: 0 auto;text-align: center;font-size: 20px;">
                 <p>从excel导入：
-                    <input value="从excel导入" type="file" name="从excel导入" id="import_from_excel">
+                    <%--name属性必须要有，这是form表单提交成功的关键--%>
+                    <input value="从excel导入" type="file" name="upload_file" id="import_from_excel">
                 </p>
-                <p><input type="submit" value="确认导入"></p>
-                <%--<p><button onclick="import_from_excel()">确认导入</button></p>--%>
+                <%--<p><input type="submit" value="确认导入"></p>--%>
+
             </div>
         </form>
+        <p><button onclick="import_from_excel()">确认导入</button></p>
         <%
             Map<String,String> result=(Map<String,String>)request.getAttribute("errmsg");
             if(result!=null&&!result.isEmpty())
@@ -99,16 +101,18 @@
     <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
     <script type="text/javascript">
         function import_from_excel() {
-            alert($("#import_from_excel").val());
+            var formDate = new FormData($("#upload")[0]);
             $.ajax({
                 type:"post",
                 url:"FileUpload",
-                data:{"path":$("#import_from_excel").val()},
+                data:formDate,
+                contentType:false,//避免提交时被jQuery修改
+                processData:false,
                 success:function (data) {
                     var res=eval(data);
                     alert(res["msg"]);
                 },
-                error:function (data) {
+                error:function () {
                     alert("请求出错");
                 }
             });

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49607a96-14ed-4a23-b014-5986ed4a026b" name="Default" comment="" />
+    <list default="true" id="49607a96-14ed-4a23-b014-5986ed4a026b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/WEB-INF/classes/com/zqb/serverlet/ImportExcel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/zqb/serverlet/ImportExcel.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/WEB-INF/classes/com/zqb/serverlet/FileUpload.class" afterPath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/WEB-INF/classes/com/zqb/serverlet/FileUpload.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaEE_project/com/zqb/serverlet/FileUpload.class" afterPath="$PROJECT_DIR$/out/production/javaEE_project/com/zqb/serverlet/FileUpload.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/88b3d687-69f7-4163-83f7-2c37cef32eef.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/88b3d687-69f7-4163-83f7-2c37cef32eef.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/add.jsp" afterPath="$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zqb/javaBean/User.java" afterPath="$PROJECT_DIR$/src/com/zqb/javaBean/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zqb/serverlet/FileUpload.java" afterPath="$PROJECT_DIR$/src/com/zqb/serverlet/FileUpload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zqb/serverlet/UpdateRecord.java" afterPath="$PROJECT_DIR$/src/com/zqb/serverlet/UpdateRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zqb/util/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/zqb/util/DBHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/add.jsp" afterPath="$PROJECT_DIR$/web/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/look_up.jsp" afterPath="$PROJECT_DIR$/web/look_up.jsp" />
+    </list>
     <ignored path="phone_book.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,6 +40,16 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - contects@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -33,18 +60,8 @@
       <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImportExcel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/ImportExcel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="319">
+              <caret line="110" column="41" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -53,18 +70,18 @@
       <file leaf-file-name="FileUpload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/FileUpload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateRecord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UpdateRecord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/UpdateRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="151">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,30 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zqb/util/ExcelHelper.java">
+      <file leaf-file-name="look_up.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/look_up.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="459">
+              <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1477550153982" expanded="true" signature="812:876" ph="INSERT INTO contectors... " />
-                <marker date="1477550153982" expanded="true" signature="912:1020" ph="INSERT INTO contects... " />
-                <marker date="1477550153982" expanded="true" signature="4373:4675" ph="SELECT conte... contectors" />
-                <marker date="1477550153982" expanded="true" signature="4715:4739" ph="select * fro... contectors" />
-                <marker date="1477550153982" expanded="true" signature="5843:5885" ph="SELECT * FRO... contects" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExportDatabase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zqb/util/ExportDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="false" />
+                <marker date="1478000803498" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
+                <marker date="1478000803498" expanded="true" signature="5720:5814" ph="..." />
+                <marker date="1478000803498" expanded="true" signature="6445:6461" ph="..." />
+                <marker date="1478000803498" expanded="true" signature="6561:6576" ph="..." />
+                <marker date="1478000803498" expanded="true" signature="7997:8013" ph="..." />
+                <marker date="1478000803498" expanded="true" signature="8040:8055" ph="..." />
+                <marker date="1478000803498" expanded="true" signature="8096:8111" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,39 +110,37 @@
       <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zqb/util/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+            <state relative-caret-position="207">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1477487906033" expanded="true" signature="565:622" ph="INSERT INTO contectors... " />
-                <marker date="1477487906033" expanded="true" signature="652:774" ph="INSERT INTO contects... " />
-                <marker date="1477487906033" expanded="true" signature="1451:1562" ph="UPDATE conte... " />
-                <marker date="1477487906033" expanded="true" signature="1927:1984" ph="UPDATE conte... " />
+                <marker date="1478000650623" expanded="true" signature="565:622" ph="INSERT INTO contectors... " />
+                <marker date="1478000650623" expanded="true" signature="652:774" ph="INSERT INTO contects... " />
+                <marker date="1478000650623" expanded="true" signature="1451:1552" ph="UPDATE conte... " />
+                <marker date="1478000650623" expanded="true" signature="1917:1949" ph="SELECT * FRO... contects" />
+                <marker date="1478000650623" expanded="true" signature="2306:2363" ph="UPDATE conte... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExportExcel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/ExportExcel.java">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/88b3d687-69f7-4163-83f7-2c37cef32eef/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="58" column="24" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="84">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <marker date="1478000416467" expanded="true" signature="0:216" ph="SELECT conte... contectors" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/AddRecord.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zqb/javaBean/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,6 +155,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -161,20 +168,22 @@
       <list>
         <option value="$PROJECT_DIR$/web/add_to_exist.jsp" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/AddRecord.java" />
-        <option value="$PROJECT_DIR$/src/com/zqb/javaBean/User.java" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/LookUp.java" />
-        <option value="$PROJECT_DIR$/src/com/zqb/util/DBHelper.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/88b3d687-69f7-4163-83f7-2c37cef32eef/console.sql" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/AddToExist.java" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/ExportExcel.java" />
         <option value="$PROJECT_DIR$/src/com/zqb/util/ExportDatabase.java" />
-        <option value="$PROJECT_DIR$/web/look_up.jsp" />
         <option value="$PROJECT_DIR$/src/com/zqb/util/ExcelHelper.java" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/ImportExcel.java" />
+        <option value="$PROJECT_DIR$/src/com/zqb/serverlet/UploadFileServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/FileUpload.java" />
         <option value="$PROJECT_DIR$/web/add.jsp" />
+        <option value="$PROJECT_DIR$/src/com/zqb/javaBean/User.java" />
         <option value="$PROJECT_DIR$/src/com/zqb/serverlet/UpdateRecord.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/88b3d687-69f7-4163-83f7-2c37cef32eef/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/zqb/util/DBHelper.java" />
+        <option value="$PROJECT_DIR$/web/look_up.jsp" />
       </list>
     </option>
   </component>
@@ -222,6 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,11 +280,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zqb" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,16 +305,9 @@
               <option name="myItemId" value="zqb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serverlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -831,11 +836,12 @@
       <workItem from="1477653188174" duration="363000" />
       <workItem from="1477874456727" duration="3108000" />
       <workItem from="1477919643308" duration="4173000" />
+      <workItem from="1477985000349" duration="10263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60355000" />
+    <option name="totallyTimeSpent" value="70618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -850,25 +856,25 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46103182" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4259056" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5883644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.4698134" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14479166" sideWeight="0.5301866" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21979167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18802084" sideWeight="0.4654226" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16041666" sideWeight="0.53457737" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51811194" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -887,13 +893,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zqb/serverlet/FileUpload.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/com/zqb/util/DBHelper.java</url>
+          <line>68</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -902,36 +908,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zqb/util/DBConnectHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zqb/javaBean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/look_up.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1477549987917" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
-            <marker date="1477549987917" expanded="true" signature="5679:5773" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6404:6420" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6520:6535" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="7958:7974" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8001:8016" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8057:8072" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/LookUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1302">
@@ -970,11 +946,11 @@
         <state relative-caret-position="775">
           <caret line="25" column="40" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1477487906033" expanded="true" signature="565:622" ph="INSERT INTO contectors... " />
-            <marker date="1477487906033" expanded="true" signature="652:774" ph="INSERT INTO contects... " />
-            <marker date="1477487906033" expanded="true" signature="1451:1562" ph="UPDATE conte... " />
-            <marker date="1477487906033" expanded="true" signature="1927:1984" ph="UPDATE conte... " />
+            <marker date="1478000650623" expanded="true" signature="565:622" ph="INSERT INTO contectors... " />
+            <marker date="1478000650623" expanded="true" signature="652:774" ph="INSERT INTO contects... " />
+            <marker date="1478000650623" expanded="true" signature="1451:1552" ph="UPDATE conte... " />
+            <marker date="1478000650623" expanded="true" signature="1917:1949" ph="SELECT * FRO... contects" />
+            <marker date="1478000650623" expanded="true" signature="2306:2363" ph="UPDATE conte... " />
           </folding>
         </state>
       </provider>
@@ -998,13 +974,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1477549987917" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
-            <marker date="1477549987917" expanded="true" signature="5679:5773" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6404:6420" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6520:6535" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="7958:7974" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8001:8016" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8057:8072" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
+            <marker date="1478000803498" expanded="true" signature="5720:5814" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6445:6461" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6561:6576" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="7997:8013" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8040:8055" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8096:8111" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1054,13 +1030,13 @@
         <state relative-caret-position="248">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <marker date="1477549987917" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
-            <marker date="1477549987917" expanded="true" signature="5679:5773" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6404:6420" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6520:6535" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="7958:7974" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8001:8016" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8057:8072" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
+            <marker date="1478000803498" expanded="true" signature="5720:5814" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6445:6461" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6561:6576" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="7997:8013" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8040:8055" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8096:8111" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1111,13 +1087,13 @@
         <state relative-caret-position="248">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <marker date="1477549987917" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
-            <marker date="1477549987917" expanded="true" signature="5679:5773" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6404:6420" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6520:6535" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="7958:7974" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8001:8016" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8057:8072" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
+            <marker date="1478000803498" expanded="true" signature="5720:5814" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6445:6461" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6561:6576" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="7997:8013" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8040:8055" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8096:8111" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1163,13 +1139,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/add_to_exist.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/zqb/javaBean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -1189,27 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-327">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/88b3d687-69f7-4163-83f7-2c37cef32eef/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zqb/util/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1477487906033" expanded="true" signature="565:622" ph="INSERT INTO contectors... " />
-            <marker date="1477487906033" expanded="true" signature="652:774" ph="INSERT INTO contects... " />
-            <marker date="1477487906033" expanded="true" signature="1451:1562" ph="UPDATE conte... " />
-            <marker date="1477487906033" expanded="true" signature="1927:1984" ph="UPDATE conte... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1240,22 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/look_up.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4127">
-          <caret line="319" column="9" selection-start-line="319" selection-start-column="9" selection-end-line="319" selection-end-column="9" />
-          <folding>
-            <marker date="1477549987917" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
-            <marker date="1477549987917" expanded="true" signature="5679:5773" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6404:6420" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="6520:6535" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="7958:7974" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8001:8016" ph="..." />
-            <marker date="1477549987917" expanded="true" signature="8057:8072" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zqb/util/ExportDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1266,12 +1198,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/UploadFileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1327">
+          <caret line="80" column="51" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/javaEE_project_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zqb/util/ExcelHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="280">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="false" />
             <marker date="1477550153982" expanded="true" signature="812:876" ph="INSERT INTO contectors... " />
             <marker date="1477550153982" expanded="true" signature="912:1020" ph="INSERT INTO contects... " />
             <marker date="1477550153982" expanded="true" signature="4373:4675" ph="SELECT conte... contectors" />
@@ -1283,34 +1238,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/ImportExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="196">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        <state relative-caret-position="319">
+          <caret line="110" column="41" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zqb/javaBean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/FileUpload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="151">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zqb/serverlet/UpdateRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="151">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/88b3d687-69f7-4163-83f7-2c37cef32eef/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <marker date="1478000416467" expanded="true" signature="0:216" ph="SELECT conte... contectors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zqb/util/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <marker date="1478000650623" expanded="true" signature="565:622" ph="INSERT INTO contectors... " />
+            <marker date="1478000650623" expanded="true" signature="652:774" ph="INSERT INTO contects... " />
+            <marker date="1478000650623" expanded="true" signature="1451:1552" ph="UPDATE conte... " />
+            <marker date="1478000650623" expanded="true" signature="1917:1949" ph="SELECT * FRO... contects" />
+            <marker date="1478000650623" expanded="true" signature="2306:2363" ph="UPDATE conte... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/look_up.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
+          <folding>
+            <marker date="1478000803498" expanded="true" signature="3193:3507" ph="SELECT conte... contectors" />
+            <marker date="1478000803498" expanded="true" signature="5720:5814" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6445:6461" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="6561:6576" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="7997:8013" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8040:8055" ph="..." />
+            <marker date="1478000803498" expanded="true" signature="8096:8111" ph="..." />
           </folding>
         </state>
       </provider>

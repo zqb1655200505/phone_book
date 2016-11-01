@@ -49,7 +49,7 @@ public class DBHelper {
         if(phone_number!=null&&phone_number.length()>0)
         {
             String condition="UPDATE contects SET contects.phone_number='"+user.getPhone_number()
-                    +"' WHERE contector_id="+id;
+                    +"' WHERE ID="+id;
             try {
                 sql.execute(condition);
                 //sql.close();
@@ -64,10 +64,22 @@ public class DBHelper {
         }
         if(name!=null&&name.length()>0)
         {
-            String condition1="UPDATE contectors SET name='"+user.getName()+"' WHERE ID="+id;
+            String condition2="SELECT * FROM contects WHERE ID="+id;
             try {
-                sql.execute(condition1);
+                ResultSet res=sql.executeQuery(condition2);
+                int user_id=0;
+                while (res.next())
+                {
+                    user_id=res.getInt("contector_id");
+                    break;
+                }
+                if(user_id!=0)
+                {
+                    String condition1="UPDATE contectors SET name='"+user.getName()+"' WHERE ID="+user_id;
+                    sql.execute(condition1);
+                }
                 sql.close();
+                con.close();
             } catch (SQLException e) {
                 e.printStackTrace();
                 return false;

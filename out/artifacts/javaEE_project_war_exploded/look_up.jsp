@@ -115,9 +115,9 @@
                     rs=sql.executeQuery(condition);
                     int counter=1;
                     int cur_id=0;
-                    int cnt=1;
                     while(rs.next())
                     {
+                        int phone_id=rs.getInt("phone_ID");
                         int id=rs.getInt("User_ID");
                         byte[] name_bytes=rs.getBytes("name");
                         String name=new String(name_bytes,"UTF-8");
@@ -130,7 +130,7 @@
                             out.print("<td>"+(counter++)+"</td>");
                             out.print("<td>"+name+"</td>");
                             out.print("<td>"+phone_number+"</td>");
-                            out.print("<td><button id='"+rs.getInt("phone_ID")+"' onclick=delete_record(this)>删除</button>&nbsp;&nbsp;<button id='"+id+"' onclick='edit_record(this)'>编辑</button>&nbsp;&nbsp;<button id='"+id+"' onclick='add_to_exist(this)'>添加</button></td>");
+                            out.print("<td><button id='"+rs.getInt("phone_ID")+"' onclick=delete_record(this)>删除</button>&nbsp;&nbsp;<button id='"+phone_id+"' onclick='edit_record(this)'>编辑</button>&nbsp;&nbsp;<button id='"+id+"' onclick='add_to_exist(this)'>添加</button></td>");
                             out.print("</tr>");
                         }
                         else
@@ -139,7 +139,7 @@
                             out.print("<td></td>");
                             out.print("<td>"+name+"</td>");
                             out.print("<td>"+phone_number+"</td>");
-                            out.print("<td><button id='"+rs.getInt("phone_ID")+"' onclick='delete_record(this)'>删除</button>&nbsp;&nbsp;<button id='"+id+"' onclick='edit_record(this)'>编辑</button>&nbsp;&nbsp;<button id='"+id+"' onclick='add_to_exist(this)'>添加</button></td>");
+                            out.print("<td><button id='"+rs.getInt("phone_ID")+"' onclick='delete_record(this)'>删除</button>&nbsp;&nbsp;<button id='"+phone_id+"' onclick='edit_record(this)'>编辑</button>&nbsp;&nbsp;<button id='"+id+"' onclick='add_to_exist(this)'>添加</button></td>");
                             out.print("</tr>");
                         }
                     }
@@ -181,7 +181,7 @@
             ok: function () {
                 var txt_name=$("#name").val();
                 var phone_number=$("#phone_number").val();
-                //alert("谢谢");
+                alert(obj.id);
                 $.ajax({
                     type: "POST",
                     url: "UpdateRecord",
@@ -193,7 +193,7 @@
                         $("#mask").remove();
                         window.location.reload();
                     },
-                    error: function(data)
+                    error: function()
                     {
                         $("#mask").remove();
                         window.location.reload();
@@ -233,7 +233,7 @@
                         $("#mask").remove();
                         window.location.reload();
                     },
-                    error: function(data)
+                    error: function()
                     {
                         $("#mask").remove();
                         window.location.reload();
@@ -274,7 +274,7 @@
                 alert(res["delete_record_result"]);
                 window.location.reload();
             },
-            error:function (data) {
+            error:function () {
                 alert("删除记录出错");
             }
         })
@@ -302,7 +302,7 @@
                         $("#mask").remove();
                         window.location.reload();
                     },
-                    error:function (data) {
+                    error:function () {
                         alert("请求出错");
                         $("#mask").remove();
                         window.location.reload();

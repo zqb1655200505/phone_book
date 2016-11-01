@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * Created by zqb on 2016/10/24.
  */
 public class User {
-    private int id;
+    private int id;//可能为用户id,也可能为号码id;
     private String name;
     private String phone_number;
     private Map<String, String> errors = new HashMap<String, String>();

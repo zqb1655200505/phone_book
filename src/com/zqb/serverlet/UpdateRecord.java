@@ -26,7 +26,7 @@ public class UpdateRecord extends HttpServlet {
         String phone_number=request.getParameter("phone_number");
         User user=new User();
         user.setPhone_number(phone_number);
-        user.setId(id);
+        user.setId(id);//此处id为号码id
         user.setName(name);
         response.setCharacterEncoding("UTF-8");
         response.setHeader("content-type","text/json;charset=UTF-8");
